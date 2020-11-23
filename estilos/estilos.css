@@ -1,0 +1,29 @@
+ /*primer selector es por nombre de etiqueta*/
+        /*Selector ID #*/
+        /*Selector clases .*/
+        div{
+            background-color: gray;
+        }
+        #Titulo{
+            color: white;
+        }
+        h2{
+            color: red;
+        }
+        .caja{
+            background-color: blueviolet;
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+            margin-top: 20px;
+        }
+        .caja:first-child{
+            background-color: gold;
+        }
+        .caja:last-child{
+            background-color: hotpink;
+        }
+        .caja:nth-child(4){
+            background-color: tomato;
+        }
+        
